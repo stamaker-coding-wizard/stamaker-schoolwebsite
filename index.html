@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Account</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" href="school.html">
+</head>
+<body>
+    <div class="container">
+        <form class="form-toggle" id="loginAccount">
+            <h2>login</h2>
+            <div class="form__message form__message--error"></div>
+            <div class="form-input-box">
+                <input type="text" class="form__input" id="username" placeholder="Enter Username or Email" required autofocus>
+                <div class="form__input-error-message"></div>
+                <p>Usernam: taofeek</p>
+            </div>
+            <div class="form-input-box">
+                <input type="password" class="form__input" id="password" placeholder="Enter password" required>
+                <div class="form__input-error-message"></div>
+                <p>Password: taofeek</p>
+            </div>
+            <div class="button">
+                <button type="button" id="gotoPage" onclick="getInfo()">continue</button>
+            </div>
+            <div class="text">
+                <a href="#">forgot your password?</a>
+            </div>
+            <div class="text">
+                <span class="span">Don't have an account?</span><a id="create"> Create account</a>
+            </div>
+        </form>
+
+        <form class="form-hidden" id="createAccount">
+            <h2>Create account</h2>
+            <div class="form__message form__message--error"></div>
+            <div class="form-input-box">
+                <input type="text" class="form__input" id="signupUsername" placeholder="Username" required autofocus>
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form-input-box">
+                <input type="text" class="form__input" placeholder="Email address" required>
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form-input-box">
+                <input type="password" class="form__input" placeholder="password" required>
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form-input-box">
+                <input type="password" class="form__input" placeholder="Confirm password" required>
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="button">
+                <button type="submit">continue</button>
+            </div>
+            
+            <div class="text">
+                <span class="blue">Already have an account?</span><a href="#" id="signIn"> Sign in</a>         </div>
+
+        </form>
+    </div>
+
+
+    <script src="sign.js"></script>
+</body>
+</html>

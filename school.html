@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second School Management System</title>
+    <link rel="stylesheet" href="school.css">
+    <!--<link rel="stylesheet" href="font-awesome-css/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    
+</head>
+<body>
+    
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <h3>OnlineUniversity</h3>
+            </div>
+            <i class="fa fa-align-justify menu"></i>
+            <div class="nav-link">
+                <i class="fa fa-times close"></i>
+                <a href="#" onclick="openname('home')">home</a>
+                <a href="#" onclick="openname('course')">Course</a>
+                <a href="#" onclick="openname('teacher')">Teacher</a>
+                <a href="#" onclick="openname('price')">Price</a>
+                <a href="#" onclick="openname('testimonial')">Testimonial</a>
+                <a href="#" onclick="openname('contact')">Contact</a>
+            </div>
+            <div class="icons">
+                <i class="fa fa-user dropdown">
+                    <div class="dropdown-menu">
+                        
+                        <div class="drop-h2">
+                            <h2>User Option</h2>
+                        </div>
+                        <div class="drop-links">
+                            <a href="#"><i class="fa fa-profile"></i><span>Profile</span></a>
+                            <a href="#"><i class="fa fa-profile"></i><span>Settings</span></a>
+                            <a href="#"><i class="fa fa-profile"></i><span>2FA Settings</span></a>
+                            <a href="#" class="sign-out"><i class="fa fa-profile"></i><span>Sign Out</span></a>
+                        </div>
+                        
+                    </div>
+                </i>
+                <a href="#" onclick="openname('cart')"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="tab-contents tab-active" id="home">
+        <section class="home">
+            <div class="opa section">
+                <div class="home-content row">
+                    <div class="home-text">
+                        <h3>OnlineUniversity <span>is the best <br> E-Learinig solution</span> for <br> problem solving- <span> Learn by <br> Practice........</span></h3>
+                        <p>This is the number one solution to learn website development like frontend backend and fullstack
+                            webdevelopment, datascience adn artificial intelligence and Database much more....
+                        </p>
+                        <div class="button">
+                            <a href="#" class="but-btn">See More</a>
+                        </div>
+                    </div>
+                    <div class="home-img">
+                        <img src="img/lap1.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service section" id="service" >
+            <div class="service-head">
+                <h3>All our programs</h3>
+                <p>At The OnlineUniversity school we encourage creativity through practice -- making one's own choices with framework is the essence of creative choice.</p>
+            </div>
+            <div class="container">
+                <div class="service-box">
+                    <i class="fa fa-comments"></i>
+                    <div class="box">
+                        <h2>Business School</h2>
+                        <p>OnlineUniversity Has Been Developing Leaders Capable Of Changing The Business World For The Better.This Is The Number One Solution To Learn Business Become Successfull And Make Influence</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <i class="fa fa-comment"></i></i>
+                    <div class="box">
+                        <h2>Development</h2>
+                        <p>OnlineUniversity Has Been Developing Leaders Capable Of Changing The Business World For The Better.This Is The Number One Solution To Learn Business Become Successfull And Make Influence</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <i class="fa fa-filter"></i>
+                    <div class="box">
+                        <h2>Marketing</h2>
+                        <p>OnlineUniversity Has Been Developing Leaders Capable Of Changing The Business World For The Better.This Is The Number One Solution To Learn Business Become Successfull And Make Influence</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <i class="fa fa-life-ring"></i>
+                    <div class="box">
+                        <h2>Data Science</h2>
+                        <p>OnlineUniversity Has Been Developing Leaders Capable Of Changing The Business World For The Better.This Is The Number One Solution To Learn Business Become Successfull And Make Influence</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <i class="fa fa-life-ring"></i>
+                    <div class="box">
+                        <h2>Social Media</h2>
+                        <p>OnlineUniversity Has Been Developing Leaders Capable Of Changing The Business World For The Better.This Is The Number One Solution To Learn Business Become Successfull And Make Influence</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <i class="fa fa-desktop"></i>
+                    <div class="box">
+                        <h2>Design</h2>
+                        <p>OnlineUniversity Has Been Developing Leaders Capable Of Changing The Business World For The Better.This Is The Number One Solution To Learn Business Become Successfull And Make Influence</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tab-contents" id="course">
+        <section class="background">
+            <div class="body section">
+                <div class="course-title">
+                    <h2><span>Home</span> <span>Course</span></h2>
+                </div>
+            </div>
+        </section>
+        <div class="course-container">
+            <div class="header-top">
+                <h3>Our Most Popular course</h3>
+            </div>
+            <div class="course-boxes">
+                <div class="course-box">
+                    <div class="course-abso">
+                        <h2>$99.9</h2>
+                    </div>
+                    <div class="img">
+                        <img src="img/lap1.jpg" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h2>HTML Crash Course</h2>
+                        <div class="star-text">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>8560 <span>reviews</span></p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit qui aut atque nihil architecto facilis. Quae nesciunt temporibus nam.</p>
+                        <div class="buttons">
+                            <div class="button">
+                                <h4>1 month <br> course </h4>
+                            </div>
+                            <div class="button">
+                                <h4>14 <br>Modules </h4>
+                            </div>
+                            <div class="button">
+                                <h4>2am - 6am class <br> duration </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box">
+                    <div class="course-abso">
+                        <h2>$129.9</h2>
+                    </div>
+                    <div class="img">
+                        <img src="img/lap1.jpg" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h2>CSS Crash Course</h2>
+                        <div class="star-text">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>8560 <span>reviews</span></p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit qui aut atque nihil architecto facilis. Quae nesciunt temporibus nam.</p>
+                        <div class="buttons">
+                            <div class="button">
+                                <h4>1 month <br> course </h4>
+                            </div>
+                            <div class="button">
+                                <h4>14 <br>Modules </h4>
+                            </div>
+                            <div class="button">
+                                <h4>2am - 6am class <br> duration </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box">
+                    <div class="course-abso">
+                        <h2>$129.9</h2>
+                    </div>
+                    <div class="img">
+                        <img src="img/lap1.jpg" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h2>JavaScript Crash Course</h2>
+                        <div class="star-text">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>8560 <span>reviews</span></p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit qui aut atque nihil architecto facilis. Quae nesciunt temporibus nam.</p>
+                        <div class="buttons">
+                            <div class="button">
+                                <h4>1 month <br> course </h4>
+                            </div>
+                            <div class="button">
+                                <h4>14 <br>Modules </h4>
+                            </div>
+                            <div class="button">
+                                <h4>2am - 6am class <br> duration </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box">
+                    <div class="course-abso">
+                        <h2>$199.9</h2>
+                    </div>
+                    <div class="img">
+                        <img src="img/lap1.jpg" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h2>Website Design</h2>
+                        <div class="star-text">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>8560 <span>reviews</span></p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit qui aut atque nihil architecto facilis. Quae nesciunt temporibus nam.</p>
+                        <div class="buttons">
+                            <div class="button">
+                                <h4>1 month <br> course </h4>
+                            </div>
+                            <div class="button">
+                                <h4>14 <br>Modules </h4>
+                            </div>
+                            <div class="button">
+                                <h4>2am - 6am class <br> duration </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box">
+                    <div class="course-abso">
+                        <h2>$99.9</h2>
+                    </div>
+                    <div class="img">
+                        <img src="img/lap1.jpg" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h2>Data Science</h2>
+                        <div class="star-text">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>8560 <span>reviews</span></p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit qui aut atque nihil architecto facilis. Quae nesciunt temporibus nam.</p>
+                        <div class="buttons">
+                            <div class="button">
+                                <h4>1 month <br> course </h4>
+                            </div>
+                            <div class="button">
+                                <h4>14 <br>Modules </h4>
+                            </div>
+                            <div class="button">
+                                <h4>2am - 6am class <br> duration </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-box">
+                    <div class="course-abso">
+                        <h2>$199.9</h2>
+                    </div>
+                    <div class="img">
+                        <img src="img/lap1.jpg" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h2>Artificial Intelegence</h2>
+                        <div class="star-text">
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>8560 <span>reviews</span></p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit qui aut atque nihil architecto facilis. Quae nesciunt temporibus nam.</p>
+                        <div class="buttons">
+                            <div class="button">
+                                <h4>1 month <br> course </h4>
+                            </div>
+                            <div class="button">
+                                <h4>14 <br>Modules </h4>
+                            </div>
+                            <div class="button">
+                                <h4>2am - 6am class <br> duration </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        <section>
+
+        </section>
+    </div>
+
+    <div class="tab-contents" id="teacher">
+        <section class="background">
+            <div class="body section">
+                <div class="course-title">
+                    <h2><span>Home</span> <span>Our Teacher</span></h2>
+                </div>
+            </div>
+            <div class="teacher-container">
+                <div class="header-top">
+                    <h3>About Us</h3>
+                </div>
+                <div class="teacher-text">
+                    <h3>We are the OnlineUniversity </h3>
+                    <p>we are the number one online university to deliver valuable information for you and your family to grow one step ahea of your <br> competetor to get your dream job right now.we are the number one online university to deliver valuable information fr you and your <br> family to grow one step ahead of yor competetor to get your dream job right now.</p>
+                </div>
+                <div class="teacher-meet"><h2>Meet Our Teachers</h2></div>
+                <div class="course-boxes">
+    
+                    <div class="course-box teacher-box">
+                        <div class="img">
+                            <img src="img/ayanfe.jpg" alt="">
+                        </div>
+                        <div class="box-content">
+                            <h2>Ayanfe Solomon</h2>
+                            <h4>Webite Developer</h4>
+                            <p>Ayanfe is an expert website developer and has more than 3 years of experiences</p>
+                            <div class="internet">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-box teacher-box">
+                        <div class="img">
+                            <img src="img/bisola.jpg" alt="">
+                        </div>
+                        <div class="box-content">
+                            <h2>Bisola Akinkunmi</h2>
+                            <h4>Social Media Influencer</h4>
+                            <p>Bisola Akinkunmi is an  expert website developer and has more than 3 years of experience</p>
+                            <div class="internet">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-box teacher-box">
+                        <div class="img">
+                            <img src="img/daniel.jpg" alt="">
+                        </div>
+                        <div class="box-content">
+                            <h2>Aliu Daniel</h2>
+                            <h4>Marketing Proffesor</h4>
+                            <p>Daniel is an expert Marketing influencer and has more than 3 years of experience</p>
+                            <div class="internet">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-box teacher-box">
+                        <div class="img">
+                            <img src="img/Iyanu.jpg" alt="">
+                        </div>
+                        <div class="box-content">
+                            <h2>Sulaimon Iyanu</h2>
+                            <h4>Software Engineer</h4>
+                            <p>Iyanu is an expert Software developer and has more than 3 years of experiences</p>
+                            <div class="internet">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-box teacher-box">
+                        <div class="img">
+                            <img src="img/messi2.jpg" alt="">
+                        </div>
+                        <div class="box-content">
+                            <h2>Messi</h2>
+                            <h4>Marketing Proffesor</h4>
+                            <p>Messi is an expert website developer and has more than 3 years of experiences</p>
+                            <div class="internet">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-box teacher-box">
+                        <div class="img">
+                            <img src="img/messiball2.jpg">
+                        </div>
+                        <div class="box-content">
+                            <h2>Leon Messi</h2>
+                            <h4>Data Scientist</h4>
+                            <p>Leon is an expert Data developer and has more than 3 years of experiences</p>
+                            <div class="internet">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tab-contents" id="price">
+        <section class="background">
+            <div class="body section">
+                <div class="course-title">
+                    <h2><span>Home</span> <span>Our Packages</span></h2>
+                </div>
+            </div>
+            <div class="teacher-container">
+                <div class="header-top">
+                    <h3>Choose the best plan for you</h3>
+                </div>
+                
+                <div class="teacher-meet price-meet"><h2>..........You can unsubscribe at any time and have 30 days money-back guarantee.......</h2></div>
+                <div class="course-boxes">
+    
+                    <div class="course-box price-box">          
+                        <div class="price-content">
+                            <h4 class="pro-title">STARTER</h4>
+                            <div class="price-display">
+                                
+                                <a href="#"><h3 class="price">N15000</h3> <span>1 month</span></a>
+                            </div>
+                            <p>
+                                the starter package enables you to access different supports from our cmpany the cost is as sample everybody can join with us o acces our package and it is economical
+                            </p>
+                            <div class="price-list-courses">
+                                <div class="list-course">
+                                    <a href="#"><i class="fa fa-check"></i>Full Courses</a>
+                                    <a href="#"><i class="fa fa-check"></i>All modules</a>
+                                    <a href="#"><i class="fa fa-check"></i>Live Projects</a>
+                                    <a href="#"><i class="fa fa-check"></i>Certicated</a>
+                                    <a href="#"><i class="fa fa-check"></i>24/7 Support</a>
+                                </div>
+                            </div>
+                            
+                            <a href="#price" class="but-btn button add-cart">Buy Now</a>
+                            
+                        </div>
+                    </div>
+                    <div class="course-box price-box">
+                        <div class="price-content">
+                            <h4 class="pro-title">BASIC</h4>
+                            <div class="price-display">
+                                <a href="#"><h3 class="price">N20000</h3> <span>6 month</span></a>
+                            </div>
+                            <p>
+                                the starter package enables you to access different supports from our cmpany the cost is as sample everybody can join with us o acces our package and it is economical
+                            </p>
+                            <div class="price-list-courses">
+                                <div class="list-course">
+                                    <a href="#"><i class="fa fa-check"></i>Full Courses</a>
+                                    <a href="#"><i class="fa fa-check"></i>All modules</a>
+                                    <a href="#"><i class="fa fa-check"></i>Live Projects</a>
+                                    <a href="#"><i class="fa fa-check"></i>Certicated</a>
+                                    <a href="#"><i class="fa fa-check"></i>24/7 Support</a>
+                                </div>
+                            </div>
+                           
+                            <a href="#price" class="but-btn button add-cart">Join Now</a>
+                            
+                        </div>
+                    </div>
+                    <div class="course-box price-box">
+                        <div class="price-content">
+                            <h4 class="pro-title">ENTERPRIZE</h4>
+                            <div class="price-display">
+                                <a href="#"><h3 class="price">N25000</h3> <span>1 year</span></a>
+                            </div>
+                            <p>
+                                the starter package enables you to access different supports from our cmpany the cost is as sample everybody can join with us o acces our package and it is economical
+                            </p>
+                            <div class="price-list-courses">
+                                <div class="list-course">
+                                    <a href="#"><i class="fa fa-check"></i> Full Courses</a>
+                                    <a href="#"><i class="fa fa-check"></i>All modules</a>
+                                    <a href="#"><i class="fa fa-check"></i>Live Projects</a>
+                                    <a href="#"><i class="fa fa-check"></i>Certicated</a>
+                                    <a href="#"><i class="fa fa-check"></i>24/7 Support</a>
+                                </div>
+                            </div>
+                            
+                            <a href="#price" class="but-btn button add-cart">Buy Now</a>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tab-contents"  id="testimonial">
+        <section class="background">
+            <div class="body section">
+                <div class="course-title">
+                    <h2><span>Home</span> <span>Course</span></h2>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tab-contents"  id="contact">
+        <section class="">
+            <div class="full-form">
+                <div class="form-img">
+                    <img src="img/messiWeb.jpg">
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <div class="input-form">
+                            <input type="text" placeholder="Student Name"required>
+                            <input type="email" placeholder="Student Email" required>
+                        </div>
+                        <input type="text" placeholder="Subject to learn" required>
+                        <textarea id="" cols="30" placeholder="Enter your Message here" required></textarea>
+                        <button class="but-btn contact-but">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tab-contents" id="cart">
+        <section class="section">
+            <div class="cart-table" id="cart-table">
+                <div class="table-header">
+                    <div class="your-choice">Items Choice</div>
+                    <div class="items-price">Price</div>
+                
+                    <div class="item-remove">Item Remove</div>
+                </div>
+
+                <div class="cart-content">
+                    
+                </div>
+
+                <div class="table-total">
+                    <div class="total-title">Total for all Items:</div>
+                    <div class="total-price">N 0</div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+    <section id="newsletter" class="newsletter section">
+        <div class="news">
+            <h2>Subcribe to our Newsletter</h2>
+            <p>Far far away, behind the word mountains, for from the countries Vakalia and Consonantia, there live the blind texts Separated thed live in</p>
+            <div class="form">
+                <form action="" class="news-form">
+                    <i class="fa fa-file"></i>
+                    <input type="text" placeholder="Enter email address" required>
+                    <button type="button">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer" class="footer">
+        <div class="footer-content">
+            <div class="footer-container">
+                <div class="footer-text">
+                    <h2>OnlineUniversity</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis aspernatur quae sapiente perferendis rerum aliquid dolor eligendi cumque neque? Quibusdam perspiciatis labore sequi?
+                    </p>
+                    <div class="form form2">
+                        <form class="news-form">
+                            <i class="fa fa-file"></i>
+                            <input type="text" placeholder="Enter email address" required>
+                            <button type="button">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+            
+                <div class="footer-links">
+                    <h3 class="h3">Quick Links</h3>
+                    <div class="footer-link">
+                        <a href="#home" onclick="openname('home')">home</a>
+                        <a href="#course" onclick="openname('course')">course</a>
+                        <a href="#" onclick="openname('price')">service</a>
+                        <a href="#footer" onclick="openname('home')">About us</a>
+                        <a href="#teacher" onclick="openname('teacher')">Teachers</a>
+                        <a href="#contact" onclick="openname('contact')">Contact us</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 class="h3">Find Us</h3>
+                    <div class="third"> 
+                        <i class="fa fa-phone"></i>
+                        <p>+234 -8147-6351-60</p>
+                    </div>
+                    <div class="third">
+                        <i class="fa fa-envelope"></i>
+                        <p>sulaimontaofeek01@gmail.com</p>
+                    </div>
+                    <div class="third">
+                        <i class="fa fa-map-marker"></i>
+                        <p>Ereko, Ita-Oluwo</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 class="h3">Follow Us</h3>
+                    <div>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Youtube</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Created by S.T.A @2022 12/26/2022 All Right Reserved</p>
+            </div>  
+        </div>
+    </div>
+   
+    
+    
+    <script src="school.js"></script>
+</body>
+</html>
