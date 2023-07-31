@@ -32,7 +32,7 @@ window.onscroll = function(){
 //Js for clicking the SignOut
 const signOut = document.querySelector('.sign-out');
 signOut.addEventListener('click', ()=>{
-    window.location.href = "sign.html";
+    window.location.href = "index.html";
     window.location.remove = "school.html";
 })
 //The Dropdown on Top in the Header End here
